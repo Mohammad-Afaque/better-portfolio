@@ -7,48 +7,48 @@ export default function About() {
       <Nav />
 
       <main id="about">
-        <h1 class="lg-heading">
+        <h1 className="lg-heading">
           About
-          <span class="text-secondary"> Me</span>
+          <span className="text-secondary"> Me</span>
         </h1>
-        <h2 class="sm-heading">Let me tell you a few things...</h2>
-        <div class="about-info">
+        <h2 className="sm-heading">Let me tell you a few things...</h2>
+        <div className="about-info">
           <img
             src="https://i.imgur.com/zPxFN1G.jpg"
             alt="Mohammad Afaque"
-            class="bio-image"
+            className="bio-image"
           />
 
-          <div class="bio">
-            <h3 class="text-secondary">Skills</h3>
+          <div className="bio">
+            <h3 className="text-secondary">Skills</h3>
             <p>
               I Would love to learn new things about programming.I had made
               several projects using{" "}
-              <span class="text-secondary">
+              <span className="text-secondary">
                 Nodejs, WordPress, Git, Gulp, LESS, ReactJS, SASS, TailwindCSS,
                 CSS, HTML
               </span>{" "}
               and
-              <span class="text-secondary"> JavaScript </span>which are
+              <span className="text-secondary"> JavaScript </span>which are
               showcased in{" "}
-              <a class="text-secondary" href="/dist/work.html">
+              <a className="text-secondary" href="/dist/work.html">
                 here
               </a>{" "}
               and source code in Github Repository.I have also made some{" "}
-              <span class="text-secondary">WordPress Websites</span>.I also have
+              <span className="text-secondary">WordPress Websites</span>.I also have
               been using Linux Operating system such as{" "}
-              <span class="text-secondary">Ubuntu 20.04 LTS, LinuxMint.</span>
+              <span className="text-secondary">Ubuntu 20.04 LTS, LinuxMint.</span>
             </p>
             <a
               href="https://docs.google.com/document/d/1F6NIjOdCmD2S8tK9_AL1HZI4ni9uq149kLGmDWYL9ro/edit?usp=sharing"
-              class="btn-light"
+              className="btn-light"
             >
-              {/* <i " class=" fas fa-eye"></i> */}
+              {/* <i " className=" fas fa-eye"></i> */}
               View CV
             </a>
           </div>
 
-          <div class="job job-1">
+          <div className="job job-1">
             <h3>Embroidery Designer</h3>
             <h4>Vip Suiting</h4>
             <p>
@@ -58,7 +58,7 @@ export default function About() {
             </p>
           </div>
 
-          <div class="job job-2">
+          <div className="job job-2">
             <h3>Intern WordPress Developer</h3>
             <h4>Websol.tech</h4>
             <p>
@@ -69,7 +69,7 @@ export default function About() {
             </p>
           </div>
 
-          <div class="job job-3">
+          <div className="job job-3">
             <h3>Front End Developer</h3>
             <h4>First Idea Web Development (pvt)Ltd</h4>
             <p>
@@ -79,7 +79,7 @@ export default function About() {
               July 2020.{" "}
             </p>
           </div>
-          <div class="job job-4">
+          <div className="job job-4">
             <h3>WordPress Developer</h3>
             <h4>Universal Solz</h4>
             <p>

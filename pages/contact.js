@@ -29,12 +29,12 @@ export default function contact() {
       <title>How to Reach Me</title>
       <Nav />
       <main id="contact">
-        <h1 class="lg-heading">
+        <h1 className="lg-heading">
           Contact
-          <span class="text-secondary"> Me</span>
+          <span className="text-secondary"> Me</span>
         </h1>
-        <h2 class="sm-heading">This is how you can reach me...</h2>
-        <div class="boxes">
+        <h2 className="sm-heading">This is how you can reach me...</h2>
+        <div className="boxes">
           <form
             action="#"
             method="post"

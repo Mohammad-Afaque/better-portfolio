@@ -32,23 +32,23 @@ class Work extends React.Component {
       <title>My Work</title>
       <Nav/>
         <main id="work">
-          <h1 class="lg-heading">
+          <h1 className="lg-heading">
             My
-            <span class="text-secondary"> Work</span>
+            <span className="text-secondary"> Work</span>
           </h1>
-          <h2 class="sm-heading">Check out some of my projects...</h2>
-          <div class="projects">
+          <h2 className="sm-heading">Check out some of my projects...</h2>
+          <div className="projects">
             {items.map((item) => (
-              <div class=" container " key={item.id}>
-                <img class="image" src={item.image} alt="Project"></img>
-                <div class="overlay ">
-                  <span class=" text ">{item.description}</span>
+              <div className=" container " key={item.id}>
+                <img className="image" src={item.image} alt="Project"></img>
+                <div className="overlay ">
+                  <span className=" text ">{item.description}</span>
                 </div>
-                <a href={item.live} class="btn-light">
-                  <i class="fas fa-eye"></i> View Project
+                <a href={item.live} className="btn-light">
+                  <i className="fas fa-eye"></i> View Project
                 </a>
-                <a href={item.github} class="btn-dark">
-                  <i class="fab fa-github"></i> Github
+                <a href={item.github} className="btn-dark">
+                  <i className="fab fa-github"></i> Github
                 </a>
               </div>
             ))}
