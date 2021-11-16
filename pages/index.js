@@ -29,7 +29,7 @@ export default function Home() {
           <a href="https://www.facebook.com/profile.php?id=100010916868357">
             <FontAwesomeIcon icon={['fab', 'facebook-f']} size="2x"/>
           </a>
-          <a href="https://www.linkedin.com/in/afaque-ch-57119a15a/">
+          <a href="https://www.linkedin.com/in/mohammad-afaque/">
             <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" />
           </a>
           <a href="https://github.com/Mohammad-Afaque">
