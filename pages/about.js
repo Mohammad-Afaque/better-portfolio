@@ -51,44 +51,29 @@ export default function About() {
           <div className="job job-1">
             <h3>Embroidery Designer</h3>
             <h4>Vip Suiting</h4>
-            <p>
-              I was working as an Embroidery Designer in this Firm.
-              Simultaneously, I was studying BSIT from Punjab University. I had
-              work thereFrom August 2017 to September 2019{" "}
-            </p>
+            <p>I have worked there from  August 2017 to September 2019{" "}</p>
           </div>
-
           <div className="job job-2">
             <h3>Intern WordPress Developer</h3>
             <h4>Websol.tech</h4>
-            <p>
-              I was working there as an Intern Developer I had to change my
-              field from Embroidery Designer to web developer because I
-              understood that was not meant for me.i was working therefrom
-              September 2019 to December 2020
-            </p>
+            <p>I have worked there from September 2019 to December 2020</p>
           </div>
-
           <div className="job job-3">
-            <h3>Front End Developer</h3>
+            <h3>WordPress Developer</h3>
             <h4>First Idea Web Development (pvt)Ltd</h4>
-            <p>
-              I was working there as a web developer. I learned a lot from them
-              my colleagues. I have made several WordPress websites which are
-              added in work section I was working there from February 2020 to
-              July 2020.{" "}
-            </p>
+            <p>I have worked there from January 2020 to July 2020.{" "}</p>
           </div>
           <div className="job job-4">
-            <h3>WordPress Developer</h3>
+            <h3>Frontend Developer</h3>
             <h4>Universal Solz</h4>
-            <p>
-              I have working there as a web developer. I learned a lot from them
-              my colleagues. I have made several WordPress websites which are
-              added in work section I have been working there from August 2020
-              till now{" "}
-            </p>
+            <p>I have worked there from August 2020 to December 2020.{" "}</p>
           </div>
+          <div className="job job-5">
+            <h3>Associate Software Engineer</h3>
+            <h4>Techverx</h4>
+            <p>I have been working there from January 2021 till now.{" "}</p>
+          </div>
+
         </div>
       </main>
     </>
