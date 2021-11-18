@@ -230,7 +230,7 @@ main#home h1 {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3" "job4 none none";
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3" "job4 job5 none";
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -260,6 +260,10 @@ main#home h1 {
 
 .about-info .job-4 {
   grid-area: job4;
+}
+
+.about-info .job-5 {
+  grid-area: job5;
 }
 
 .about-info .job {
@@ -438,7 +442,7 @@ main#home h1 {
   }
 
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "job4";
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "job4" "job5";
     grid-template-columns: 1fr;
   }
 
