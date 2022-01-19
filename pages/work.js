@@ -25,8 +25,10 @@ class Work extends React.Component {
   }
   render() {
     const { items } = this.state;
-
-
+    const itemsWithoutWordpress = items.filter((item)=>{
+      return item.name !== 'wordpress'}
+      ) 
+  
     return (
       <>
       <title>My Work</title>
@@ -38,7 +40,7 @@ class Work extends React.Component {
           </h1>
           <h2 className="sm-heading">Check out some of my projects...</h2>
           <div className="projects">
-            {items.map((item) => (
+            {itemsWithoutWordpress.map((item) => (
               <div className=" container " key={item.id}>
                 <img className="image" src={item.image} alt="Project"></img>
                 <div className="overlay ">
@@ -51,7 +53,7 @@ class Work extends React.Component {
                   <i className="fab fa-github"></i> Github
                 </a>
               </div>
-            ))}
+    ))}
           </div>
         </main>
       </>
