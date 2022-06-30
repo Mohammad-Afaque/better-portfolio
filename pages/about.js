@@ -35,9 +35,11 @@ export default function About() {
                 here
               </a>{" "}
               and source code in Github Repository.I have also made some{" "}
-              <span className="text-secondary">WordPress Websites</span>.I also have
-              been using Linux Operating system such as{" "}
-              <span className="text-secondary">Ubuntu 20.04 LTS, LinuxMint.</span>
+              <span className="text-secondary">WordPress Websites</span>.I also
+              have been using Linux Operating system such as{" "}
+              <span className="text-secondary">
+                Ubuntu 20.04 LTS, LinuxMint.
+              </span>
             </p>
             <a
               href="https://docs.google.com/document/d/1F6NIjOdCmD2S8tK9_AL1HZI4ni9uq149kLGmDWYL9ro/edit?usp=sharing"
@@ -49,31 +51,30 @@ export default function About() {
           </div>
 
           <div className="job job-1">
-            <h3>Embroidery Designer</h3>
-            <h4>Vip Suiting</h4>
-            <p>I have worked there from  August 2017 to September 2019{" "}</p>
-          </div>
-          <div className="job job-2">
-            <h3>Intern WordPress Developer</h3>
+            <h3>Intern Software Engineer</h3>
             <h4>Websol.tech</h4>
             <p>I have worked there from September 2019 to December 2020</p>
           </div>
-          <div className="job job-3">
-            <h3>WordPress Developer</h3>
+          <div className="job job-2">
+            <h3> Frontend Developer</h3>
             <h4>First Idea Web Development (pvt)Ltd</h4>
-            <p>I have worked there from January 2020 to July 2020.{" "}</p>
+            <p>I have worked there from January 2020 to July 2020. </p>
           </div>
-          <div className="job job-4">
+          <div className="job job-3">
             <h3>Frontend Developer</h3>
             <h4>Universal Solz</h4>
-            <p>I have worked there from August 2020 to December 2020.{" "}</p>
+            <p>I have worked there from August 2020 to December 2020. </p>
+          </div>
+          <div className="job job-4">
+            <h3>Software Engineer</h3>
+            <h4>Techverx</h4>
+            <p>I have been working there from January 2021 till now. </p>
           </div>
           <div className="job job-5">
-            <h3>Associate Software Engineer</h3>
+            <h3>Software Engineer</h3>
             <h4>Techverx</h4>
-            <p>I have been working there from January 2021 till now.{" "}</p>
+            <p>I have been working there from January 2021 till now. </p>
           </div>
-
         </div>
       </main>
     </>
