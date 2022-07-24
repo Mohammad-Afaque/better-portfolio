@@ -23,12 +23,14 @@ class Work extends React.Component {
         });
       });
   }
-  render() {
+  
+  if (isLoading) return <p>Loading...</p>
+   
+ render() {
     const { items } = this.state;
     const itemsWithoutWordpress = items.filter((item)=>{
       return item.name !== 'wordpress'}
       ) 
-  
     return (
       <>
       <title>My Work</title>
