@@ -23,7 +23,7 @@ export default function Home() {
           Front End Developer
         </h2>
         <div className="icons">
-          <a href="https://twitter.com/mohammad_afaqu3">
+          <a href="https://twitter.com/AfaqueDev">
             <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
           </a>
           <a href="https://www.facebook.com/profile.php?id=100010916868357">
