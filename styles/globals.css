@@ -179,7 +179,7 @@ h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
-  padding: 0.2rem .1rem;
+  padding: 0.2rem 0.1rem;
   background: rgba(73, 73, 73, 0.5);
 }
 
@@ -333,7 +333,7 @@ main#home h1 {
   margin: auto;
 }
 
-.boxes div input {
+.boxes input {
   font-size: 23px;
   border: 3px #fff solid;
   padding: 0.4rem 0.3rem;
@@ -341,7 +341,7 @@ main#home h1 {
   transition: all 0.5s ease-out;
   border-radius: 8px;
 }
-.boxes div #message {
+.boxes #message {
   font-size: 23px;
   border: 3px #fff solid;
   padding: 0.4rem 0.3rem;
@@ -349,6 +349,7 @@ main#home h1 {
   transition: all 0.5s ease-out;
   border-radius: 8px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 900px;
 }
 
 .boxes div:hover span {
@@ -452,18 +453,19 @@ main#home h1 {
 }
 
 @media screen and (max-width: 500px) {
-  .boxes div input {
-    padding: 1.5rem 2.5rem;
+  .boxes input {
+    padding: 1rem 0.7rem;
     margin: 20px;
   }
-  .boxes div #message {
-    padding: 1.5rem 0.5rem;
-    margin: 20px;
-    width: 332px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .boxes #message {
+    padding: 1rem 0.7rem;
+    width: 270px;
+  }
+  .submit {
+    width: 270px;
   }
   main {
-    padding: 2rem;
+    padding: 5rem 2rem;
   }
 
   main #home h1 {
@@ -478,5 +480,54 @@ main#home h1 {
 
   .projects {
     grid-template-columns: 1fr;
+  }
+}
+/* Loader */
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50vh;
+  background: 1a1a1a;
+  animation: animateBackground 1s linear infinite;
+}
+.work .loader {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 4px solid transparent;
+  border-radius: 50%;
+  border-top: 4px solid #fff;
+  animation: rotate 1.5s linear infinite;
+}
+
+.work .loader::before,
+.work .loader::after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 4px solid transparent;
+}
+
+.work .loader::after {
+  inset: 0;
+  border-bottom: 4px solid #fff;
+  animation: rotate 0.5s linear infinite reverse;
+}
+
+.work .loader::before {
+  inset: 4px;
+  border-left: 4px solid #fff;
+  animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

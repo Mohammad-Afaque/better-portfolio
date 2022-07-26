@@ -41,23 +41,19 @@ export default function contact() {
             className="contact-form"
             onSubmit={sendEmail}
           >
-            <div>
               <input
                 type="text"
                 id="your-name"
                 placeholder="Your Name..."
                 name="name"
               />
-            </div>
-            <div>
               <input
                 type="email"
                 id="email"
                 placeholder="Your Email..."
                 name="email"
               />
-            </div>
-            <div>
+
               {" "}
               <input
                 type="text"
@@ -65,22 +61,17 @@ export default function contact() {
                 placeholder="Subject..."
                 name="subject"
               />
-            </div>
-            <div className="flex-d">
               <textarea
                 className="textarea"
                 name="message"
                 id="message"
-                cols="63"
-                rows="6"
                 placeholder="Leave your message..."
               ></textarea>
               <input
                 type="submit"
-                className="bg-secondary button big default"
+                className="bg-secondary submit"
                 value="Send Message"
               />
-            </div>
           </form>
         </div>
       </main>

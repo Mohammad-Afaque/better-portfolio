@@ -66,9 +66,9 @@ export default function About() {
             <p>I have worked there from August 2020 to December 2020. </p>
           </div>
           <div className="job job-4">
-            <h3>Software Engineer</h3>
-            <h4>Techverx</h4>
-            <p>I have been working there from January 2021 till now. </p>
+            <h3>Frontend Developer</h3>
+            <h4>Upwork(Freelance)</h4>
+            <p>I have worked there from September 2020 to January 2022. </p>
           </div>
           <div className="job job-5">
             <h3>Software Engineer</h3>
