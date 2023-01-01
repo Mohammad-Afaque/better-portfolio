@@ -5,7 +5,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 function Work() {
   const { data, error } = useSWR(
-    "https://afaque-project-api.herokuapp.com/projects/",
+    "https://nice-red-betta-kit.cyclic.app/projects/",
     fetcher
   );
 
