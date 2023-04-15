@@ -52,9 +52,7 @@ function Work() {
               <a href={item.live} className="btn-light">
                 <i className="fas fa-eye"></i> View Project
               </a>
-              <a href={item.github} className="btn-dark">
-                <i className="fab fa-github"></i> Github
-              </a>
+              
             </div>
           ))}
         </div>
