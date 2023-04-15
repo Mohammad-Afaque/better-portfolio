@@ -28,8 +28,8 @@ function Work() {
       </>
     );
 
-  const itemsWithoutWordpress = data.filter(
-    (item) => item.name !== "wordpress"
+  const itemsWithWordpress = data.filter(
+    (item) => item.name === "wordpress"
   );
 
   return (
@@ -43,7 +43,7 @@ function Work() {
         </h1>
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="projects">
-          {itemsWithoutWordpress.map((item) => (
+          {itemsWithWordpress.map((item) => (
             <div className="container" key={item.id}>
               <img className="image" src={item.image} alt="Project"></img>
               <div className="overlay ">
