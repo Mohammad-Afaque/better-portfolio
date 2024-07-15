@@ -12,29 +12,29 @@ export default function Home() {
 
   return (
     <>
-      <title>Welcome To My Portfolio</title>
-      <Nav />
+      <title>Under Construction</title>
+      // <Nav />
       <main id="home">
         <h1 className="lg-heading">
-          <span className="text-secondary">Mohammad </span>
-          Afaque
+          <span className="text-secondary">Under  </span>
+          Construction
         </h1>
-        <h2 className="sm-heading">
-          Front End Developer
-        </h2>
-        <div className="icons">
-          <a href="https://twitter.com/AfaqueDev">
-            <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=100010916868357">
-            <FontAwesomeIcon icon={['fab', 'facebook-f']} size="2x"/>
-          </a>
-          <a href="https://www.linkedin.com/in/mohammad-afaque/">
-            <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" />
-          </a>
-          <a href="https://github.com/Mohammad-Afaque">
-            <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
-          </a>
+        // <h2 className="sm-heading">
+        //   Front End Developer
+        // </h2>
+        // <div className="icons">
+        //   <a href="https://twitter.com/AfaqueDev">
+        //     <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
+        //   </a>
+        //   <a href="https://www.facebook.com/profile.php?id=100010916868357">
+        //     <FontAwesomeIcon icon={['fab', 'facebook-f']} size="2x"/>
+        //   </a>
+        //   <a href="https://www.linkedin.com/in/mohammad-afaque/">
+        //     <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" />
+        //   </a>
+        //   <a href="https://github.com/Mohammad-Afaque">
+        //     <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
+        //   </a>
         </div>
       </main>
     </>
